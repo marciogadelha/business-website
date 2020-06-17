@@ -303,7 +303,7 @@ h2.subscription-text {
 	color: white;
 }
 
-.subscription-form input[type=text]{
+.subscription-form input[type=email]{
 	width: calc(100% - 120px);
 	height: 40px;
 	background: #FFF;
