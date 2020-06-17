@@ -24,8 +24,18 @@ html, body{
 	padding: 0 2%;
 }
 
+.w60 {
+	width: 60%;
+	float: left;
+}
+
 .w50 {
 	width: 50%;
+	float: left;
+}
+
+.w40 {
+	width: 40%;
 	float: left;
 }
 
@@ -644,6 +654,101 @@ section.about__final {
 		width: 100%;
 	}
 }
+
+/* Contact */
+
+section.contact {
+	padding: 30px 0;
+	min-height: 530px;
+}
+
+section.contact .w50,
+section.contact .w100 {
+	padding: 0 10px;
+}
+
+.contact-form form {
+	margin-top: 10px;
+}
+
+.contact-form h2 {
+	background: #DDDDDD;
+	text-align: center;
+	color: #ACAC9D;
+	font-size: 17px;
+	font-weight: normal;
+	border-left: 5px solid #CCCCCC;
+	padding: 4px 0;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+	width: 100%;
+	height: 40px;
+	border: 1px solid #CCC;
+	margin-bottom: 15px;
+	padding-left: 8px;
+}
+
+.contact-form textarea {
+	width: 100%;
+	height: 120px;
+	border: 1px solid #CCC;
+	margin-bottom: 15px;
+	padding: 10px;
+	resize: vertical;
+}
+
+.form-tags {
+	padding-left: 50px;
+}
+
+.form-tags h2 {
+	font-weight: normal;
+}
+
+.form-tags {
+	font-weight: lighter;
+}
+
+.form-tags p.contact-tag {
+	color: white;
+	background: #249B8F;
+	text-align: center;
+	margin-top: 6px;
+	padding: 8px 4px;
+}
+
+/* Contact Responsivity */
+
+@media screen and (max-width: 768px) {
+
+	.form-tags {
+		padding-left: 0px;
+	}
+
+	.contact-form input[type="text"],
+	.contact-form input[type="email"] {
+		margin-bottom: 0px;
+	}
+
+	.contact-form textarea {
+		margin-bottom: 0px;
+	}
+
+	.w60, .w40, .w100 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+
+	section.contact {
+		min-height: 0px;
+	}
+}
+
 
 /*
 .box0 {
